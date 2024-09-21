@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *,
 *::after,
 *::before {
@@ -1347,9 +1348,8 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
-}/*# sourceMappingURL=main.css.map */
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1 {
   color: #fff;
@@ -1373,6 +1373,6 @@ h1 {
   100% {
     opacity: 1;
   }
-}
+}/*# sourceMappingURL=main.css.map */
 
 
