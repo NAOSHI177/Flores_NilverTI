@@ -1348,3 +1348,31 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }/*# sourceMappingURL=main.css.map */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  animation: fadeIn 8s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
